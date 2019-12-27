@@ -22,7 +22,7 @@
 5. git commit -m "提交信息"  //说明著述，对本次提交添加说明原因
 6. 去GitHub上复制仓库地址
 7. git remote add origin master GitHub仓库地址。//将本地从仓库关联到GitHub上
-8. git pull --rebase origin master //~~如果远程仓库有README.md文件，执行此操作。大致就是为本地仓库代码目录添加一个README.md文件~~
-代码合并，将github上之前的代码克隆到本地
+8. git pull --rebase origin master //如果远程仓库有README.md文件，执行此操作。大致就是为本地仓库代码目录添加一个README.md文件
 9. git push -u origin master //上传命令。  
 别忘了刷新GitHub仓库查看。
+11111
