@@ -5,8 +5,8 @@
 在GitHub上新建一个仓库，需要设置的内容有仓库名、是否共享、是否生成Readme
 ### 生成SSH密钥部分
 + 打开Git Bash 输入以下命令
-- git config --global user.name "GitHub账号名" 回车
-- git config --global user.email "GitHub邮箱"  回车
+  - git config --global user.name "GitHub账号名" 回车
+  - git config --global user.email "GitHub邮箱"  回车
 + 输入命令：cd ~/.ssh 。此时一般会有密钥生成，如果没有，再次输入以下命令：ssh-keygen -t rsa -C "GitHub注册邮箱"。之后会出现一系列操作，大致是关于ssh文件的位置。可以一直点击回车。这样.ssh文件就会出现在C盘目录下（具体自己找，应该好找）。
 + 找到.ssh文件，打开。
 + 用记事本里面的id_rsa.pub文件。复制里面的全部信息（里面的就是SSH密钥）。
