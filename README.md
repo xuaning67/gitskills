@@ -16,9 +16,13 @@
 以上则SSH密钥配置成功。
 ## 上传文件（在已经设置好SSH keys的情况下）
 1. 右键需要上传的文件，选择Git bash Here，进入命令行
-2. git init初始化仓库，这时候会发现文件中出现一个名为.git的文件
-3. git commit -m "提交信息"  //这个地方还不清楚是什么含义，好像是说明著述，具体用途记不清了。应该是为了方便操作
-4. git remote add origin master GitHub仓库地址。该操作应该就是本地同GitHub的连接
-5. git pull --rebase origin master 。如果远程仓库有README.md文件，执行此操作。具体有什么用我也还不知道。
-6. git push -u origin master。 同样不知道这是啥，但是到目前为止基本算是上传成功。  
+2. git init //初始化仓库，这时候会发现文件夹中出现一个名为.git的文件
+3. 输入 git status //标红部分为当前文件夹中待添加到本地仓库的文件。
+4. 输入 git add 文件名（加后缀）  或者  git add --all  。再次输入 git status //刚才显示为红色的文件信息已经变为绿色，表明文件已经被添加到本地仓库。
+5. git commit -m "提交信息"  //说明著述，对本次提交添加说明原因
+6. 去GitHub上复制仓库地址
+7. git remote add origin master GitHub仓库地址。//将本地从仓库关联到GitHub上
+8. git pull --rebase origin master //~~如果远程仓库有README.md文件，执行此操作。大致就是为本地仓库代码目录添加一个README.md文件~~
+代码合并，将github上之前的代码克隆到本地
+6. git push -u origin master //上传命令。  
 别忘了刷新GitHub仓库查看。
