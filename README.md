@@ -20,5 +20,5 @@
 3. git commit -m "提交信息"  //这个地方还不清楚是什么含义，好像是说明著述，具体用途记不清了。应该是为了方便操作
 4. git remote add origin master GitHub仓库地址。该操作应该就是本地同GitHub的连接
 5. git pull --rebase origin master 。如果远程仓库有README.md文件，执行此操作。具体有什么用我也还不知道。
-6. git push -u origin master。 同样不知道这是啥，但是到目前为止基本算是上传成功。
+6. git push -u origin master。 同样不知道这是啥，但是到目前为止基本算是上传成功。  
 别忘了刷新GitHub仓库查看。
